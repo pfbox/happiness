@@ -131,3 +131,5 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',  # <-- And here
     ],
 }
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
