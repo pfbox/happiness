@@ -39,7 +39,7 @@ b. Use API endpoint at 127.0.0.1:8000/hp/api/<br>
 # Solution Description
 
 ## 1. General Assumptions
-1.1. Django and virtual environment have been set up<br/>
+1.1. Virtual environment have been set up and activated<br/>
 1.2. Since it's not required for app to be reusable, I built a repo for the whole project - it can be easily cloned and ran locally.<br/>
 1.3. API endpoint application "hp" is an application withing the project.<br/>
 1.4. Request can be made only for one date.<br/>
