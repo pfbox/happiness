@@ -3,25 +3,31 @@
 ## API endpoint to access users statistics
 
 ## Running Locally
-
+Clone the repository into your project
 ```bash
 git clone https://github.com/pfbox/happiness.git
 ```
-```bash
-pip install -r requirements.txt
-```
+Change directory
 ```bash
 cd happiness
 ```
+Install required packages
+```bash
+pip install -r requirements.txt
+```
+Migrate the changes to the database
 ```bash
 python manage.py migrate
 ```
+Create superuser to access admin site
 ```bash
 python manage.py createsuperuser
 ```
+Finally run the server
 ```bash
 python manage.py runserver
 ```
+If tests need to be done please use
 ```bash
 python manage.py test
 ```
