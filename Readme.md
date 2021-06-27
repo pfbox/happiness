@@ -132,11 +132,11 @@ Vary: Accept
 ```
 
 ## 8. Tests 
-8.1. unauthenticated request returning todays average happiness.<br \>
-8.2. authenticated request returning todays average team happiness.<br \>
-8.3. unauthenticated request returning happiness by date.<br \>
-8.4. authenticated request returning average team happiness for specific date.<br \>
-8.5. unauthenticated request returning todays average happiness.<br \>
+8.1. unauthenticated request returning todays average happiness.<br/>
+8.2. authenticated request returning todays average team happiness.<br/>
+8.3. unauthenticated request returning happiness by date.<br/>
+8.4. authenticated request returning average team happiness for specific date.<br/>
+8.5. unauthenticated request returning todays average happiness.<br/>
 
 ## 9. Changes to settings.py
 9.1. Applications support.
