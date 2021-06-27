@@ -117,7 +117,7 @@ Vary: Accept
 		}
 }
 ```
-7.3.3.example for wrong input.
+7.3.3.Bad input date.
 ```bash
 GET /hp/api/2222/
 
