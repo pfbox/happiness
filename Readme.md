@@ -53,6 +53,7 @@ b. Use API endpoint at 127.0.0.1:8000/hp/api/<br>
 
 ## 3. Authentication
 3.1. Token authentication method is used.<br/>
+3.2. Generation and requesting tokens support has not been bilt within this app.<br/> 
 
 ## 4. Other parameters
 4.1. Time zone support is disabled.<br/>
@@ -98,7 +99,7 @@ Vary: Accept
 ```
 7.3.2. Authenticated request with valid date.
 ```bash
-GET /hp/api/2021-06-26 {"Authentication : "Token 'need-token-key-here'"} 
+GET /hp/api/2021-06-26 'Authorization: Token TOKEN-KEY-IS-NEEDED-HERE' 
 HTTP 200 OK
 Allow: GET, HEAD, OPTIONS
 Content-Type: application/json
